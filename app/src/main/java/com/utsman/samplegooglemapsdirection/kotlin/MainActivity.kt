@@ -40,8 +40,11 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        fkip = LatLng(-6.3037978, 106.8693713)
-        monas = LatLng(-6.1890511, 106.8251573)
+    /*    fkip = LatLng(-6.3037978, 106.8693713)
+        monas = LatLng(-6.1890511, 106.8251573)*/
+
+        fkip = LatLng(55.67734515844318, 13.076061398152657)
+        monas = LatLng(55.675699664601616, 13.065890462255302)
 
         val mapFragment = maps_view as SupportMapFragment
         mapFragment.getMapAsync(this)
